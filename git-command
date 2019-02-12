@@ -1,0 +1,9 @@
+git init 
+git config --global user.email "liupeichao11\@163.com"
+git config --global user.name "Mrlpc"
+git remote add origin https://github.com/Mrlpc/test-all.git
+git remote add origin https://github.com/Mrlpc/test-all.git
+git pull origin master --allow-unrelated-histories
+git add *.c
+git commit -m some files
+git push -u origin master
